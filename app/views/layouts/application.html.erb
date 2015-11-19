@@ -7,6 +7,29 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+	<header>
+		<div class="col-xs-3">
+			<div class="circle">
+  				<br />
+  				Coaches.
+  				<br />
+  				Players.
+  				<br />
+  				Wisdom.
+			</div>
+
+		</div>
+		<div class='col-xs-4 slogan'>
+		<div class="col-xs-4">
+			Splurting out pretty obvious advice about sports from people you might have heard of
+		</div>
+		<div class="col-xs-5">
+			<%= link_to 'Contribute', '#' %>
+			<%= link_to "About", '#' %>
+		</div>
+	</header>
+
+	<br class="clear" />
 
 <%= yield %>
 
