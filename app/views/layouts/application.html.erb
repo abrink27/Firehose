@@ -31,8 +31,22 @@
 	<hr />
 
 	<br class="clear" />
-
+<div class="container">
 <%= yield %>
+</div>
+
+<div class="footer">
+	<div class="container">
+		<div class="col-xs-6">
+			<%= link_to "This isn't enough, I need more", "#", :class => 'next-quote' %>
+		</div>
+		<div class="col-xs-6 footer-blurb">
+			Developed in LA, CA by <a href="http://andrewbrink.neocities.org/">Andrew</a><br />
+
+			Want to build your own Splurty Web App - <a href="http://thefirehoseproject.com">Learn how to code here</a>
+      </div>
+	</div>
+</div>
 
 </body>
 </html>
