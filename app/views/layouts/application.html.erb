@@ -9,6 +9,7 @@
 <body>
 	<header>
 		<div class="col-xs-3">
+			<%=link_to root_path do %>
 			<div class="circle">
   				<br />
   				Coaches.
@@ -17,13 +18,14 @@
   				<br />
   				Wisdom.
 			</div>
+			<% end %>
 
 		</div>
 		<div class="col-xs-4 slogan">
 			Blurting out obvious advice about sports from people you might have heard of before.
 		</div>
 		<div class="col-xs-5 links">
-			<%= link_to 'Contribute', '#' %>
+			<%= link_to 'Contribute', new_quote_path %>
 			<%= link_to "About", '#' %>
 		</div>
 	</header>
